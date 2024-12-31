@@ -1,0 +1,110 @@
+input {
+    height: 40px;
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+form button {
+    display: flex;
+    justify-self: center;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    border-radius: 9px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+.hero {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 450px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(130, 180, 238);
+    padding-left: 150px;
+    border-radius: 20px;
+    box-shadow: 40px 30px 80px rgb(5, 0, 12);
+}
+
+li button {
+    margin-left: 25px;
+    height: 40px;
+    width: 150px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+ul {
+    font-size: 27px;
+}
+
+li div {
+    display: inline-block;
+}
+.add:hover {
+    background-color: greenyellow;
+}
+
+.edit:hover {
+    background-color: yellow;
+}
+.delete:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+li button:hover {
+    animation: but 0.3s forwards;
+}
+
+.add:hover {
+    transform: scale(1.1);
+    animation: but 0.3s ease-in-out;
+}
+
+@keyframes but {
+    0%{
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+}
+.send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign {
+    justify-self: left;
+    margin-left: 110px;
+}
+.sign:hover{
+    transform: scale(1.1);
+    animation: but 0.3s ease-in-out;
+    background-color: green;
+    color:  white;
+}
